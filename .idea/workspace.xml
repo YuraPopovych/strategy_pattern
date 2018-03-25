@@ -14,8 +14,8 @@
       <file leaf-file-name="Shop.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/strategy/Shop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="852">
+              <caret line="61" column="14" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -24,15 +24,9 @@
       <file leaf-file-name="tests_lec.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../tests_lec.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-              <folding>
-                <marker date="1521925884311" expanded="true" signature="323:511" ph="CREATE TABLE... IF" />
-                <marker date="1521925884311" expanded="true" signature="526:618" ph="INSERT INTO MyGuests... " />
-                <marker date="1521925884311" expanded="true" signature="920:927" ph="SELECT * FRO... MyGuests" />
-                <marker date="1521925884311" expanded="true" signature="920:967" ph="SELECT id, f... MyGuests" />
-                <marker date="1521925884311" expanded="true" signature="920:974" ph="SELECT id, f... MyGuests" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,8 +34,8 @@
       <file leaf-file-name="Order.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy/Order.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="782">
+              <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -82,16 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iPay.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/strategy/interface/iPay.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -142,15 +126,15 @@
         <option value="$PROJECT_DIR$/strategy/creditCard.php" />
         <option value="$PROJECT_DIR$/strategy/interface/iPay.php" />
         <option value="$PROJECT_DIR$/strategy/Cash.php" />
-        <option value="$PROJECT_DIR$/strategy/Item.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/strategy/novaPoshta.php" />
         <option value="$PROJECT_DIR$/strategy/Office.php" />
-        <option value="$PROJECT_DIR$/strategy/Order.php" />
         <option value="$PROJECT_DIR$/strategy/BranchOffice.php" />
-        <option value="$PROJECT_DIR$/../tests_lec.php" />
         <option value="$PROJECT_DIR$/strategy/Client.php" />
+        <option value="$PROJECT_DIR$/strategy/Item.php" />
         <option value="$PROJECT_DIR$/strategy/Shop.php" />
+        <option value="$PROJECT_DIR$/../tests_lec.php" />
+        <option value="$PROJECT_DIR$/strategy/Order.php" />
       </list>
     </option>
   </component>
@@ -234,12 +218,13 @@
       <workItem from="1521822730047" duration="6859000" />
       <workItem from="1521893669366" duration="7991000" />
       <workItem from="1521914066403" duration="10320000" />
-      <workItem from="1521970910900" duration="1278000" />
+      <workItem from="1521970910900" duration="3524000" />
+      <workItem from="1521979734034" duration="6251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82117000" />
+    <option name="totallyTimeSpent" value="90614000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -302,7 +287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -373,7 +357,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -414,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -454,19 +436,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Item.php" />
     <entry file="file://$PROJECT_DIR$/shop.php" />
-    <entry file="file://$PROJECT_DIR$/strategy/Item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="8" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php" />
     <entry file="file://$PROJECT_DIR$/strategy/interface/iSend.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -494,20 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../tests_lec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-          <folding>
-            <marker date="1521925884311" expanded="true" signature="323:511" ph="CREATE TABLE... IF" />
-            <marker date="1521925884311" expanded="true" signature="526:618" ph="INSERT INTO MyGuests... " />
-            <marker date="1521925884311" expanded="true" signature="920:927" ph="SELECT * FRO... MyGuests" />
-            <marker date="1521925884311" expanded="true" signature="920:967" ph="SELECT id, f... MyGuests" />
-            <marker date="1521925884311" expanded="true" signature="920:974" ph="SELECT id, f... MyGuests" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strategy/novaPoshta.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -532,14 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strategy/Client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -548,10 +500,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tests_lec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/strategy/Shop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="852">
+          <caret line="61" column="14" lean-forward="false" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
           <folding />
         </state>
       </provider>

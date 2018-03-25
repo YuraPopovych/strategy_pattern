@@ -5,7 +5,7 @@ require_once 'BranchOffice.php';
 require_once 'interface/iSend.php';
 
 require_once 'Client.php';
-
+require_once 'Shop.php';
 
 
 class Order {
@@ -13,6 +13,7 @@ class Order {
     private $price;
     private $send;
     private $pay;
+    private $item;
 
 
     public function set_send($delivery_method){
@@ -42,9 +43,13 @@ class Order {
         return $this -> pay;
     }
 
+    public static function item(){
+        return Shop::get_items();
+    }
 
 
 }
 
+var_dump(Order::item());
 
 ?>

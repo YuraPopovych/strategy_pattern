@@ -41,17 +41,24 @@ class Shop
     public function get_order(){
         return $this -> order;
     }
+
+    public static function get_items(){
+        return self::$items;
+    }
+
+
 }
 
 
-
-$shop1 = new Shop('Shop1', 'Lviv', 'email1@', '093');
+/*
+$shop1 = new Shop('Shop1', 'Lviv', 'email1@', '032');
 $shop1 -> set_order((new Order()));
-$shop1 -> get_order() -> set_client(new Client('Yura','Popovyc', '032', '@gmail'));
+$shop1 -> get_order() -> set_client(new Client('Nikola','Tesla', '032', '@gmail'));
 $shop1 -> get_order() -> set_pay(New Cash);
 echo $shop1 -> get_order() -> get_pay() -> pay() . "<br>";
 $shop1 -> get_order() -> set_send(new BranchOffice());
 echo $shop1->get_order() ->  get_send() -> delivery(3,1000);
-
+*/
+print_r(Shop::get_items());
 
 ?>
