@@ -18,11 +18,11 @@ class Shop
     private $s_address;
     private $s_email;
     private $s_phone;
-    private static $items = array(
-        array('id' => 1, 'category' => 'TV', 'name' => 'Sony', 'price' => 20000, 'rate' => 8),
-        array('id' => 2, 'category' => 'Notebook', 'name' => 'HP', 'price' => 13000, 'rate' => 7),
-        array('id' => 3, 'category' => 'Refrigerator', 'name' => 'Samsung', 'price' => 14000, 'rate' => 7),
-        array('id' => 4, 'category' => 'Vacuum', 'name' => 'LG', 'price' => 8500, 'rate' => 7));
+    public static $items = array(
+        array('id' => 1, 'category' => 'TV', 'name' => 'Sony 40RE453', 'price' => 20000, 'rate' => 8),
+        array('id' => 2, 'category' => 'Notebook', 'name' => 'HP EliteBook', 'price' => 13000, 'rate' => 7),
+        array('id' => 3, 'category' => 'Refrigerator', 'name' => 'Samsung RB1102', 'price' => 14000, 'rate' => 7),
+        array('id' => 4, 'category' => 'Vacuum', 'name' => 'LG AGB6', 'price' => 8500, 'rate' => 7));
     private $order;
 
     public function __construct($s_name, $s_address, $s_email, $s_phone)
@@ -42,8 +42,14 @@ class Shop
         return $this -> order;
     }
 
-    public static function get_items(){
-        return self::$items;
+    public static function set_items($name){
+        #return self::$items[$name];
+        for($i = 0; $i < count(self::$items); $i++) {
+            if (in_array(($name), self::$items[$i])) {
+                $chose = self::$items[$i];
+                return $chose;
+            }
+        }
     }
 
 
@@ -59,6 +65,6 @@ echo $shop1 -> get_order() -> get_pay() -> pay() . "<br>";
 $shop1 -> get_order() -> set_send(new BranchOffice());
 echo $shop1->get_order() ->  get_send() -> delivery(3,1000);
 */
-print_r(Shop::get_items());
+print_r(Shop::set_items('Sony 40RE453'));
 
 ?>

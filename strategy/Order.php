@@ -43,13 +43,13 @@ class Order {
         return $this -> pay;
     }
 
-    public static function item(){
-        return Shop::get_items();
+    public static function item($name){
+        Shop::set_items($name);
     }
 
 
 }
-
-var_dump(Order::item());
+#echo 'aaa';
+#var_dump(Order::item());
 
 ?>
