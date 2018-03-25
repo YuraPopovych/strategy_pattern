@@ -38,9 +38,6 @@ class Client {
 
 
 }
-/*
-$a = new Client('Yura','Popovych','0934361147');
-echo $a -> pay(new creditCard(123,111,2018));
-*/
+
 ?>
 

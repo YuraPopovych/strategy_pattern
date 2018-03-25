@@ -43,7 +43,7 @@ class Shop
     }
 }
 
-##########FINAL TEST#############
+
 
 $shop1 = new Shop('Shop1', 'Lviv', 'email1@', '093');
 $shop1 -> set_order((new Order()));
