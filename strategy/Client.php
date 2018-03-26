@@ -36,6 +36,10 @@ class Client {
         return $this -> phone;
     }
 
+    public function getEmail(){
+        return $this -> phone;
+    }
+
 
 }
 

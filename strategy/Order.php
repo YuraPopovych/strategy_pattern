@@ -11,7 +11,6 @@ require_once 'Shop.php';
 class Order
 {
     private $client;
-    #private $price;
     private $send;
     private $pay;
 
