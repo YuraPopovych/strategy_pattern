@@ -20,6 +20,7 @@ class Order
     private $item_name;
     private $item_price;
     private $item_rate;
+    private $item_weight;
 
     public function set_send($delivery_method)
     {
@@ -59,16 +60,18 @@ class Order
         #Shop::set_items($name);
         for ($i = 0; $i < count(Shop::$items); $i++) {
             if (in_array(($name), Shop::$items[$i])) {
-                $this -> item_id = Shop::$items[$i]['id'];
-                $this -> item_category = Shop::$items[$i]['category'];
-                $this -> item_name = Shop::$items[$i]['name'];
-                $this -> item_price = Shop::$items[$i]['price'];
-                $this -> item_rate = Shop::$items[$i]['rate'];
-            }
-            else {
-                return "Sorry! We have not such item.";
+                $this->item_id = Shop::$items[$i]['id'];
+                $this->item_category = Shop::$items[$i]['category'];
+                $this->item_name = Shop::$items[$i]['name'];
+                $this->item_price = Shop::$items[$i]['price'];
+                $this->item_rate = Shop::$items[$i]['rate'];
+                $this->item_weight = Shop::$items[$i]['weight'];
             }
         }
+    if (!isset($this -> item_name)){
+        echo "We have no such product";
+    }
+
     }
 
     public function get_item_id(){
@@ -93,18 +96,17 @@ class Order
         return $this -> item_rate;
 
     }
+
+    public function get_item_weight(){
+        return $this -> item_weight;
+
+    }
     }
 
 
 
 
 
-$obj = new Order;
-$obj -> set_item('Sony 40RE453');
-echo $obj -> get_item_price();
 
-#print_r(Order::item('Sony 40RE453'));
-#echo 'aaa';
-#var_dump(Order::item());
 
 ?>

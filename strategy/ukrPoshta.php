@@ -1,14 +1,18 @@
 <?php
 require_once 'interface/iSend.php';
 class ukrPoshta implements iSend {
+    private $amount;
     public function delivery($weight,$price) {
 
-        if ($price > 1000)
-            return 'You have been chosen Ukr Posta delivery.' . ' You have free delivery';
+        if ($price > 10000) {
+            return 'Ви обрали спосіб доставки  Укр поштою.' . ' Вітаємо! У вас безкоштовна доставка, тому що вартість вашого замовлення перевищує 10 000 грн.';
+        }
         else {
-            return 'You have been chosen Ukr Posta delivery.' . ' .Your delivery pay is ' . $price = $price + ($weight * 3) ;
+            return 'Ви обрали спосіб доставки Укр поштою.' . ' Вартість доставки ' .  $price = $price + ($weight * 6);
         }
     }
+
+
 }
 
 
