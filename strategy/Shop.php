@@ -42,6 +42,7 @@ class Shop
         return $this -> order;
     }
 
+    /*
     public static function set_items($name){
         #return self::$items[$name];
         for($i = 0; $i < count(self::$items); $i++) {
@@ -52,19 +53,26 @@ class Shop
         }
     }
 
+    */
+
 
 }
 
 
-/*
+
 $shop1 = new Shop('Shop1', 'Lviv', 'email1@', '032');
 $shop1 -> set_order((new Order()));
 $shop1 -> get_order() -> set_client(new Client('Nikola','Tesla', '032', '@gmail'));
+$shop1 -> get_order() -> set_item('Sony 40RE453');
+#echo $shop1 -> get_order() -> get_item_name() . " " . $shop1 -> get_order() -> get_item_rate();
 $shop1 -> get_order() -> set_pay(New Cash);
 echo $shop1 -> get_order() -> get_pay() -> pay() . "<br>";
 $shop1 -> get_order() -> set_send(new BranchOffice());
 echo $shop1->get_order() ->  get_send() -> delivery(3,1000);
-*/
-print_r(Shop::set_items('Sony 40RE453'));
+
+
+
+#print_r(Shop::set_items('Sony 40RE453'));
+
 
 ?>
