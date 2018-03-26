@@ -7,7 +7,7 @@ class creditCard implements iPay
     private $number;
     private $cvv;
     private $date;
-    #private $money;
+
 
     public function __construct($number, $cvv, $date)
     {
@@ -22,7 +22,7 @@ class creditCard implements iPay
 
     public function pay(){
 
-            return "You made purchase by credit card.";
+            return "Ви обрали спосіб платежу за допомогою кредитної картки.";
         }
 
 }

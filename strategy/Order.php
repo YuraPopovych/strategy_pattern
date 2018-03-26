@@ -11,7 +11,7 @@ require_once 'Shop.php';
 class Order
 {
     private $client;
-    private $price;
+    #private $price;
     private $send;
     private $pay;
 
@@ -57,7 +57,6 @@ class Order
 
     public function set_item($name)
     {
-        #Shop::set_items($name);
         for ($i = 0; $i < count(Shop::$items); $i++) {
             if (in_array(($name), Shop::$items[$i])) {
                 $this->item_id = Shop::$items[$i]['id'];
@@ -69,7 +68,7 @@ class Order
             }
         }
     if (!isset($this -> item_name)){
-        echo "We have no such product";
+        echo "На жаль, у нас наразі немає даного товару";
     }
 
     }
@@ -102,6 +101,12 @@ class Order
 
     }
     }
+
+
+
+
+
+
 
 
 

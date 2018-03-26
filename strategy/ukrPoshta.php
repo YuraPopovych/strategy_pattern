@@ -3,12 +3,16 @@ require_once 'interface/iSend.php';
 class ukrPoshta implements iSend {
     private $amount;
     public function delivery($weight,$price) {
+        $delivery_price = ($weight * 4);
+        $amount = $price + $delivery_price;
 
         if ($price > 10000) {
-            return 'Ви обрали спосіб доставки  Укр поштою.' . ' Вітаємо! У вас безкоштовна доставка, тому що вартість вашого замовлення перевищує 10 000 грн.';
+            return 'Обрано спосіб отримання товару у відділенні  Укр пошти.' . ' Вітаємо! У вас безкоштовна доставка, тому що вартість вашого замовлення перевищує 10 000 грн.' .  " Загальна вартість до сплати $price грн. ";
         }
         else {
-            return 'Ви обрали спосіб доставки Укр поштою.' . ' Вартість доставки ' .  $price = $price + ($weight * 6);
+            $delivery_price = ($weight * 6);
+            $amount = $price + $delivery_price;
+            return 'Обрано спосіб отримання товару у відділенні Укр пошти.' . " Вартість доставки $delivery_price грн. " . " Загальна вартість $amount грн. " ;
         }
     }
 

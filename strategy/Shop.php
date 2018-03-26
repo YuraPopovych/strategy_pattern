@@ -42,37 +42,19 @@ class Shop
         return $this -> order;
     }
 
-    /*
-    public static function set_items($name){
-        #return self::$items[$name];
-        for($i = 0; $i < count(self::$items); $i++) {
-            if (in_array(($name), self::$items[$i])) {
-                $chose = self::$items[$i];
-                return $chose;
-            }
-        }
-    }
-
-    */
-
 
 }
 
-
+#WORKING PROGRAM
 
 $shop1 = new Shop('Shop1', 'Lviv', 'email1@', '032');
 $shop1 -> set_order((new Order()));
 $shop1 -> get_order() -> set_client(new Client('Daniel','Kahneman', '032', '@gmail'));
-$shop1 -> get_order() -> set_item('LG AGB6');
-echo $shop1 -> get_order() -> get_item_name() . " " . $shop1 -> get_order() -> get_item_rate();
+$shop1 -> get_order() -> set_item('HP EliteBook');
+echo "Ви обрали товар: " .  $shop1 -> get_order() -> get_item_name() . "." . " Вартістю: " . $shop1 -> get_order() -> get_item_price() . " грн." .  "<br>";
 $shop1 -> get_order() -> set_pay(New Cash);
 echo $shop1 -> get_order() -> get_pay() -> pay() . "<br>";
-$shop1 -> get_order() -> set_send(new ukrPoshta());
+$shop1 -> get_order() -> set_send(new novaPoshta());
 echo $shop1->get_order() ->  get_send() -> delivery($shop1->get_order() ->  get_item_weight(),$shop1->get_order() ->  get_item_price());
-
-
-
-#print_r(Shop::set_items('Sony 40RE453'));
-
 
 ?>
